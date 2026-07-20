@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#G#",
+    ".g.",
+    " C "
+  ],
+  "key": {
+    "#": "minecraft:gold_ingot",
+    "G": "minecraft:golden_pickaxe",
+    ".": "minecraft:gold_nugget",
+    "g": "minecraft:gold_block",
+    "C": "#minecraft:chains"
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components":{"item_name":"Staff of Haste","rarity": "rare","minecraft:custom_data":{"tag":"staffHaste"},"item_model":"staffhaste","max_stack_size":1}
+  }
+}

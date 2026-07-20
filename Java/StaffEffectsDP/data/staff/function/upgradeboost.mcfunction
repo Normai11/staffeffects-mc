@@ -1,0 +1,5 @@
+playsound block.enchantment_table.use master @p ~ ~ ~
+kill @e[type=item,nbt={Item:{id:"minecraft:enchanted_book",components:{"minecraft:custom_data":{tag:"imbuedRuneBoost"}},count:1}},limit=1,sort=nearest]
+kill @e[type=item,nbt={Item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_data":{tag:"staffBoost"}}}},limit=1,sort=nearest]
+summon item ~ ~ ~ {Item:{id:"minecraft:stick",count:1,components:{"item_name":"Staff of Prosperity","enchantment_glint_override":true,"rarity": "epic","minecraft:custom_data":{"tag":"staffboostsuper"},"item_model":"staffboostsuper","max_stack_size":1,"minecraft:death_protection":{death_effects:[{type:"clear_all_effects"},{type:"apply_effects",effects:[{id:regeneration, amplifier:1, duration:900},{id:fire_resistance, amplifier:0, duration:800},{id:absorption,amplifier:1,duration:100}]}]}}}}
+advancement grant @p only staff:staffeffects/upgrade

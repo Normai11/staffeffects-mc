@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components":{"minecraft:custom_data":{"tag":"staffStrength"},"item_model":"staffstrength"},
+      "count": 1
+    },
+    "title": "Staffs",
+    "description": "Uncover ancient relics holding magical power",
+    "background": "minecraft:block/amethyst_block",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards":{"recipes":["staff:staffboost","staff:stafffire","staff:staffhaste","staff:staffjump","staff:staffregen","staff:staffresist","staff:staffspeed","staff:staffstrength"]}
+}

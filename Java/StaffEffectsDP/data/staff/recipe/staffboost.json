@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#T#",
+    "oEo",
+    " C "
+  ],
+  "key": {
+    "#": "minecraft:emerald",
+    "T": "minecraft:totem_of_undying",
+    "o": "minecraft:gold_ingot",
+    "E": "minecraft:glowstone",
+    "C": "#minecraft:chains"
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components":{"item_name":"Staff of Life","rarity": "rare","minecraft:custom_data":{"tag":"staffBoost"},"item_model":"staffboost","max_stack_size":1}
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#I#",
+    ".i.",
+    " C "
+  ],
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "I": "minecraft:iron_sword",
+    ".": "minecraft:iron_nugget",
+    "i": "minecraft:iron_block",
+    "C": "#minecraft:chains"
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components":{"item_name":"Staff of Strength","rarity": "rare","minecraft:custom_data":{"tag":"staffStrength"},"item_model":"staffstrength","max_stack_size":1}
+  }
+}

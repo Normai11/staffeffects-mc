@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#S#",
+    "sos",
+    " C "
+  ],
+  "key": {
+    "#": "minecraft:diamond",
+    "S": "minecraft:diamond_boots",
+    "s": "minecraft:sugar",
+    "o": "minecraft:diamond_block",
+    "C": "#minecraft:chains"
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components":{"item_name":"Staff of Speed","rarity": "rare","minecraft:custom_data":{"tag":"staffSpeed"},"item_model":"staffspeed","max_stack_size":1}
+  }
+}

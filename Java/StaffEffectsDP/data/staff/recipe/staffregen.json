@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#G#",
+    ".R.",
+    " C "
+  ],
+  "key": {
+    "#": "minecraft:golden_dandelion",
+    "G": "minecraft:golden_apple",
+    ".": "minecraft:gold_nugget",
+    "R": "minecraft:redstone_block",
+    "C": "#minecraft:chains"
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components":{"item_name":"Staff of Regeneration","rarity": "rare","minecraft:custom_data":{"tag":"staffRegen"},"item_model":"staffregen","max_stack_size":1}
+  }
+}

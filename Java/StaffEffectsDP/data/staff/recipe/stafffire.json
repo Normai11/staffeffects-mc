@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#F#",
+    "fCf",
+    " c "
+  ],
+  "key": {
+    "f": "minecraft:fire_charge",
+    "F": "minecraft:magma_cream",
+    "#": "minecraft:flint",
+    "C": "minecraft:magma_block",
+    "c": "#minecraft:chains"
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components":{"item_name":"Staff of Fire Resistance","rarity": "rare","minecraft:custom_data":{"tag":"staffFire"},"item_model":"stafffire","max_stack_size":1}
+  }
+}

@@ -5,7 +5,7 @@
       "components":{"minecraft:custom_data":{"tag":"rune"},"item_model":"imbuedrune","enchantment_glint_override":true},
       "count": 1
     },
-    "title": "Stories Uncovered",
+    "title": "Unearthed",
     "description": "Imbue an Upgrade Rune with Lapis and a core material",
     
     "frame": "task",
@@ -13,7 +13,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "staff:staffeffects/root",
+  "parent": "staff:staffeffects/staffcreate",
   "criteria": {
     "get": {
       "trigger": "minecraft:impossible"

@@ -15,6 +15,6 @@
   },
   "result": {
     "id": "minecraft:stick",
-    "components":{"item_name":"Staff of Regeneration","rarity": "rare","minecraft:custom_data":{"tag":"staffRegen"},"item_model":"staffregen","max_stack_size":1}
+    "components":{"item_name":"Staff of Regeneration","rarity": "rare","minecraft:custom_data":{"tag":"staffRegen", "stafftype":"regen", "customitem":"staff"},"item_model":"staffregen","max_stack_size":1}
   }
 }

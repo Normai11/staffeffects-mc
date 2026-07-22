@@ -1,0 +1,9 @@
+{
+  "parent": "staff:staffeffects/root",
+  "criteria": {
+    "detect": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {}
+    }
+  }
+}

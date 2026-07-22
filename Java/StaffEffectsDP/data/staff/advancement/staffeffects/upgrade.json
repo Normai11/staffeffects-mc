@@ -6,7 +6,7 @@
       "count": 1
     },
     "title": "Unlimited Potential",
-    "description": "Upgrade a Staff by dropping an Upgrade Rune and a Staff",
+    "description": "Upgrade a Staff by dropping an Upgrade Rune and a Staff next to each other",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

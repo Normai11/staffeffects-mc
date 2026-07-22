@@ -1,8 +1,8 @@
 execute at @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_data":{tag:"rune"}}}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:lapis_lazuli",count:1}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:iron_block",count:1}}] run function staff:imbuestrong
 execute at @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:enchanted_book",count:1,components:{"minecraft:custom_data":{tag:"imbuedRuneStrength"}}}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_data":{tag:"staffStrength"}}}}] run function staff:upgradestrong
 execute at @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_data":{tag:"rune"}}}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:lapis_lazuli",count:1}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:magma_block",count:1}}] run function staff:imbuefire
-execute at @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:enchanted_book",count:1,components:{"minecraft:custom_data":{tag:"imbuedRuneFire"}}}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_data":{tag:"staffFire"}}}}] run function staff:upgradefire
-execute at @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_data":{tag:"rune"}}}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:lapis_lazuli",count:1}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:glowstone",count:1}}] run function staff:imbueboost
+#execute at @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:enchanted_book",count:1,components:{"minecraft:custom_data":{tag:"imbuedRuneFire"}}}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_data":{tag:"staffFire"}}}}] run function staff:upgradefire
+#execute at @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_data":{tag:"rune"}}}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:lapis_lazuli",count:1}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:glowstone",count:1}}] run function staff:imbueboost
 execute at @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:enchanted_book",count:1,components:{"minecraft:custom_data":{tag:"imbuedRuneBoost"}}}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_data":{tag:"staffBoost"}}}}] run function staff:upgradeboost
 execute at @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_data":{tag:"rune"}}}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:lapis_lazuli",count:1}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:gold_block",count:1}}] run function staff:imbuehaste
 execute at @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:enchanted_book",count:1,components:{"minecraft:custom_data":{tag:"imbuedRuneHaste"}}}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_data":{tag:"staffHaste"}}}}] run function staff:upgradehaste
@@ -15,19 +15,7 @@ execute at @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:enchanted_book",cou
 execute at @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_data":{tag:"rune"}}}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:lapis_lazuli",count:1}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:diamond_block",count:1}}] run function staff:imbuespeed
 execute at @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:enchanted_book",count:1,components:{"minecraft:custom_data":{tag:"imbuedRuneSpeed"}}}}] as @e[type=item,distance=..2,nbt={OnGround:1b,Item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_data":{tag:"staffSpeed"}}}}] run function staff:upgradespeed
 
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffStrength"}] run effect give @a strength 1 0 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffstrengthsuper"}] run effect give @a strength 1 1 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffRegen"}] run effect give @a regeneration 1 0 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffregensuper"}] run effect give @a regeneration 1 1 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffBoost"}] run effect give @a health_boost 1 1 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffboostsuper"}] run effect give @a health_boost 1 4 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffFire"}] run effect give @a fire_resistance 1 0 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"stafffiresuper"}] run effect give @a fire_resistance 1 1 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffHaste"}] run effect give @a haste 1 0 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffhastesuper"}] run effect give @a haste 1 1 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffResist"}] run effect give @a resistance 1 0 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffresistsuper"}] run effect give @a resistance 1 1 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffjump"}] run effect give @a jump_boost 1 0 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffjumpsuper"}] run effect give @a jump_boost 1 1 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffSpeed"}] run effect give @a speed 1 0 true
-execute as @a if items entity @s weapon.offhand minecraft:stick[custom_data~{tag:"staffspeedsuper"}] run effect give @a speed 1 1 true
+execute as @a[scores={detectDrop=1..}] run function staff:applyeffects
+execute as @a[scores={detectMilk=1..}] run function staff:applyeffects
+
+#execute as @a[tag=staff-fire] run say i have fire!

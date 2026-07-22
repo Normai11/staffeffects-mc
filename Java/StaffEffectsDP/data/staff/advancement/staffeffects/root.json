@@ -18,5 +18,21 @@
       "trigger": "minecraft:tick"
     }
   },
-  "rewards":{"recipes":["staff:staffboost","staff:stafffire","staff:staffhaste","staff:staffjump","staff:staffregen","staff:staffresist","staff:staffspeed","staff:staffstrength"]}
+  "rewards":{"recipes":[
+    "staff:staffboost",
+    "staff:stafffire",
+    "staff:staffhaste",
+    "staff:staffjump",
+    "staff:staffregen",
+    "staff:staffresist",
+    "staff:staffspeed",
+    "staff:staffstrength",
+    "staff:upgrdrune",
+    "staff:poisonpatch",
+    "staff:blindpatch",
+    "staff:hungerpatch",
+    "staff:invispatch",
+    "staff:levitatepatch",
+    "staff:nauseapatch",
+    "staff:slowpatch"]}
 }

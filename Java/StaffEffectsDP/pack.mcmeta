@@ -1,7 +1,6 @@
 {
     "pack": {
-    	"min_format": [88, 0],
-    	"max_format": [108.1, 0]
+        "pack_format":107,
         "description":"Adds staffs that grant status effects when held."
     }
 }

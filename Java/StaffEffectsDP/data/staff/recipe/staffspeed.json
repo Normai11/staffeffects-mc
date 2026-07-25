@@ -14,7 +14,7 @@
     "C": "#minecraft:chains"
   },
   "result": {
-    "id": "minecraft:stick",
-    "components":{"item_name":"Staff of Speed","rarity": "rare","minecraft:custom_data":{"tag":"staffSpeed", "stafftype":"speed", "customitem":"staff"},"item_model":"staffspeed","max_stack_size":1}
+    "id": "minecraft:music_disc_5",
+    "components":{"item_name":"Staff of Speed","rarity": "rare","minecraft:custom_data":{"tag":"staffSpeed", "stafftype":"speed", "customitem":"staff"},"item_model":"staffspeed","max_stack_size":1, "!minecraft:jukebox_playable":{}}
   }
 }

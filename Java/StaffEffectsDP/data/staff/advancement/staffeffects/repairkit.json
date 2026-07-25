@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "recipe_unlocked": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "staff:dummyrecipe"
+      }
+    }
+  },
+  "rewards": {
+    "function": "staff:fixdefunct"
+  }
+}

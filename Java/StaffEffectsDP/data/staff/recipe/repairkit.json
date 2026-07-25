@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": false,
+  "ingredients": [
+    "minecraft:copper_nugget",
+    "minecraft:copper_ingot",
+    "minecraft:copper_ingot",
+    "minecraft:copper_nugget"
+
+  ],
+  "result": {
+    "id": "minecraft:knowledge_book",
+    "components":{"minecraft:recipes":["staff:dummyrecipe"],"minecraft:item_name":"Staff Repair Kit", "minecraft:item_model":"staffrepairkit","lore":[{"text":"Use this item to fix any dysfunctional Staffs!"}]}
+  }
+}

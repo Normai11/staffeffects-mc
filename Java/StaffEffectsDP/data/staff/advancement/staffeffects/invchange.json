@@ -2,14 +2,7 @@
   "parent": "staff:staffeffects/root",
   "criteria": {
     "detect": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "components":{"max_stack_size":1}
-          }
-        ]
-      }
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "rewards": {

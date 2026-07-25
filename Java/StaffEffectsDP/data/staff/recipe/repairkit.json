@@ -10,6 +10,6 @@
   ],
   "result": {
     "id": "minecraft:knowledge_book",
-    "components":{"minecraft:recipes":["staff:dummyrecipe"],"minecraft:item_name":"Staff Repair Kit", "minecraft:item_model":"staffrepairkit","lore":[{"text":"Use this item to fix any dysfunctional Staffs!"}]}
+    "components":{"minecraft:recipes":["staff:dummyrecipe"],"minecraft:item_name":"Staff Repair Kit","minecraft:rarity":"rare", "minecraft:item_model":"staffrepairkit","lore":[{"text":"Use this item to fix any dysfunctional Staffs!"}]}
   }
 }

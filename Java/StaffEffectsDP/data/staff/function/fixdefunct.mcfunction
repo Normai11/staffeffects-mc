@@ -8,6 +8,7 @@ data modify storage staff:tempstorage Slots[-1].componenttag set value "staffBoo
 data modify storage staff:tempstorage Slots[-1].componenttype set value "boost"
 data modify storage staff:tempstorage Slots[-1].componentmodel set value "staffboost"
 data modify storage staff:tempstorage Slots[-1].componentrarity set value "rare"
+data modify storage staff:tempstorage Slots[-1].componentglint set value false
 function staff:fixloop with storage staff:tempstorage Slots[-1]
 
 data modify storage staff:tempstorage Slots append from entity @s Inventory[{components:{"minecraft:custom_data":{"tag":"staffFire"}}}]
@@ -16,6 +17,7 @@ data modify storage staff:tempstorage Slots[-1].componenttag set value "staffFir
 data modify storage staff:tempstorage Slots[-1].componenttype set value "fire"
 data modify storage staff:tempstorage Slots[-1].componentmodel set value "stafffire"
 data modify storage staff:tempstorage Slots[-1].componentrarity set value "rare"
+data modify storage staff:tempstorage Slots[-1].componentglint set value false
 function staff:fixloop with storage staff:tempstorage Slots[-1]
 
 data remove storage staff:tempstorage Slots
@@ -25,6 +27,7 @@ data modify storage staff:tempstorage Slots[-1].componenttag set value "staffHas
 data modify storage staff:tempstorage Slots[-1].componenttype set value "haste"
 data modify storage staff:tempstorage Slots[-1].componentmodel set value "staffhaste"
 data modify storage staff:tempstorage Slots[-1].componentrarity set value "rare"
+data modify storage staff:tempstorage Slots[-1].componentglint set value false
 function staff:fixloop with storage staff:tempstorage Slots[-1]
 
 data remove storage staff:tempstorage Slots
@@ -34,6 +37,7 @@ data modify storage staff:tempstorage Slots[-1].componenttag set value "staffjum
 data modify storage staff:tempstorage Slots[-1].componenttype set value "jump"
 data modify storage staff:tempstorage Slots[-1].componentmodel set value "staffjump"
 data modify storage staff:tempstorage Slots[-1].componentrarity set value "rare"
+data modify storage staff:tempstorage Slots[-1].componentglint set value false
 function staff:fixloop with storage staff:tempstorage Slots[-1]
 
 data remove storage staff:tempstorage Slots
@@ -43,6 +47,7 @@ data modify storage staff:tempstorage Slots[-1].componenttag set value "staffReg
 data modify storage staff:tempstorage Slots[-1].componenttype set value "regen"
 data modify storage staff:tempstorage Slots[-1].componentmodel set value "staffregen"
 data modify storage staff:tempstorage Slots[-1].componentrarity set value "rare"
+data modify storage staff:tempstorage Slots[-1].componentglint set value false
 function staff:fixloop with storage staff:tempstorage Slots[-1]
 
 data remove storage staff:tempstorage Slots
@@ -52,6 +57,7 @@ data modify storage staff:tempstorage Slots[-1].componenttag set value "staffRes
 data modify storage staff:tempstorage Slots[-1].componenttype set value "resist"
 data modify storage staff:tempstorage Slots[-1].componentmodel set value "staffresist"
 data modify storage staff:tempstorage Slots[-1].componentrarity set value "rare"
+data modify storage staff:tempstorage Slots[-1].componentglint set value false
 function staff:fixloop with storage staff:tempstorage Slots[-1]
 
 data remove storage staff:tempstorage Slots
@@ -61,6 +67,7 @@ data modify storage staff:tempstorage Slots[-1].componenttag set value "staffSpe
 data modify storage staff:tempstorage Slots[-1].componenttype set value "speed"
 data modify storage staff:tempstorage Slots[-1].componentmodel set value "staffspeed"
 data modify storage staff:tempstorage Slots[-1].componentrarity set value "rare"
+data modify storage staff:tempstorage Slots[-1].componentglint set value false
 function staff:fixloop with storage staff:tempstorage Slots[-1]
 
 data remove storage staff:tempstorage Slots
@@ -70,4 +77,85 @@ data modify storage staff:tempstorage Slots[-1].componenttag set value "staffStr
 data modify storage staff:tempstorage Slots[-1].componenttype set value "strength"
 data modify storage staff:tempstorage Slots[-1].componentmodel set value "staffstrength"
 data modify storage staff:tempstorage Slots[-1].componentrarity set value "rare"
+data modify storage staff:tempstorage Slots[-1].componentglint set value false
+function staff:fixloop with storage staff:tempstorage Slots[-1]
+
+##########
+
+data modify storage staff:tempstorage Slots append from entity @s Inventory[{components:{"minecraft:custom_data":{"tag":"staffboostsuper"}}}]
+data modify storage staff:tempstorage Slots[-1].componentname set value "Staff of Prosperity"
+data modify storage staff:tempstorage Slots[-1].componenttag set value "staffboostsuper"
+data modify storage staff:tempstorage Slots[-1].componenttype set value "boost"
+data modify storage staff:tempstorage Slots[-1].componentmodel set value "staffboostsuper"
+data modify storage staff:tempstorage Slots[-1].componentrarity set value "epic"
+data modify storage staff:tempstorage Slots[-1].componentglint set value true
+function staff:fixloop with storage staff:tempstorage Slots[-1]
+
+data modify storage staff:tempstorage Slots append from entity @s Inventory[{components:{"minecraft:custom_data":{"tag":"stafffiresuper"}}}]
+data modify storage staff:tempstorage Slots[-1].componentname set value "Staff of NOTHING!!!!!!!!!!!!!!"
+data modify storage staff:tempstorage Slots[-1].componenttag set value "stafffiresuper"
+data modify storage staff:tempstorage Slots[-1].componenttype set value "fire"
+data modify storage staff:tempstorage Slots[-1].componentmodel set value "stafffiresuper"
+data modify storage staff:tempstorage Slots[-1].componentrarity set value "epic"
+data modify storage staff:tempstorage Slots[-1].componentglint set value true
+function staff:fixloop with storage staff:tempstorage Slots[-1]
+
+data remove storage staff:tempstorage Slots
+data modify storage staff:tempstorage Slots append from entity @s Inventory[{components:{"minecraft:custom_data":{"tag":"staffhastesuper"}}}]
+data modify storage staff:tempstorage Slots[-1].componentname set value "Staff of Efficiency"
+data modify storage staff:tempstorage Slots[-1].componenttag set value "staffhastesuper"
+data modify storage staff:tempstorage Slots[-1].componenttype set value "haste"
+data modify storage staff:tempstorage Slots[-1].componentmodel set value "staffhastesuper"
+data modify storage staff:tempstorage Slots[-1].componentrarity set value "epic"
+data modify storage staff:tempstorage Slots[-1].componentglint set value true
+function staff:fixloop with storage staff:tempstorage Slots[-1]
+
+data remove storage staff:tempstorage Slots
+data modify storage staff:tempstorage Slots append from entity @s Inventory[{components:{"minecraft:custom_data":{"tag":"staffjumpsuper"}}}]
+data modify storage staff:tempstorage Slots[-1].componentname set value "Staff of Verticality"
+data modify storage staff:tempstorage Slots[-1].componenttag set value "staffjumpsuper"
+data modify storage staff:tempstorage Slots[-1].componenttype set value "jump"
+data modify storage staff:tempstorage Slots[-1].componentmodel set value "staffjumpsuper"
+data modify storage staff:tempstorage Slots[-1].componentrarity set value "epic"
+data modify storage staff:tempstorage Slots[-1].componentglint set value true
+function staff:fixloop with storage staff:tempstorage Slots[-1]
+
+data remove storage staff:tempstorage Slots
+data modify storage staff:tempstorage Slots append from entity @s Inventory[{components:{"minecraft:custom_data":{"tag":"staffregensuper"}}}]
+data modify storage staff:tempstorage Slots[-1].componentname set value "Staff of Recovery"
+data modify storage staff:tempstorage Slots[-1].componenttag set value "staffregensuper"
+data modify storage staff:tempstorage Slots[-1].componenttype set value "regen"
+data modify storage staff:tempstorage Slots[-1].componentmodel set value "staffregensuper"
+data modify storage staff:tempstorage Slots[-1].componentrarity set value "epic"
+data modify storage staff:tempstorage Slots[-1].componentglint set value true
+function staff:fixloop with storage staff:tempstorage Slots[-1]
+
+data remove storage staff:tempstorage Slots
+data modify storage staff:tempstorage Slots append from entity @s Inventory[{components:{"minecraft:custom_data":{"tag":"staffresistsuper"}}}]
+data modify storage staff:tempstorage Slots[-1].componentname set value "Staff of Immunity"
+data modify storage staff:tempstorage Slots[-1].componenttag set value "staffresistsuper"
+data modify storage staff:tempstorage Slots[-1].componenttype set value "resist"
+data modify storage staff:tempstorage Slots[-1].componentmodel set value "staffresistsuper"
+data modify storage staff:tempstorage Slots[-1].componentrarity set value "epic"
+data modify storage staff:tempstorage Slots[-1].componentglint set value true
+function staff:fixloop with storage staff:tempstorage Slots[-1]
+
+data remove storage staff:tempstorage Slots
+data modify storage staff:tempstorage Slots append from entity @s Inventory[{components:{"minecraft:custom_data":{"tag":"staffspeedsuper"}}}]
+data modify storage staff:tempstorage Slots[-1].componentname set value "Staff of Blurs"
+data modify storage staff:tempstorage Slots[-1].componenttag set value "staffspeedsuper"
+data modify storage staff:tempstorage Slots[-1].componenttype set value "speed"
+data modify storage staff:tempstorage Slots[-1].componentmodel set value "staffspeedsuper"
+data modify storage staff:tempstorage Slots[-1].componentrarity set value "epic"
+data modify storage staff:tempstorage Slots[-1].componentglint set value true
+function staff:fixloop with storage staff:tempstorage Slots[-1]
+
+data remove storage staff:tempstorage Slots
+data modify storage staff:tempstorage Slots append from entity @s Inventory[{components:{"minecraft:custom_data":{"tag":"staffstrengthsuper"}}}]
+data modify storage staff:tempstorage Slots[-1].componentname set value "Staff of Brawn"
+data modify storage staff:tempstorage Slots[-1].componenttag set value "staffstrengthsuper"
+data modify storage staff:tempstorage Slots[-1].componenttype set value "strength"
+data modify storage staff:tempstorage Slots[-1].componentmodel set value "staffstrengthsuper"
+data modify storage staff:tempstorage Slots[-1].componentrarity set value "epic"
+data modify storage staff:tempstorage Slots[-1].componentglint set value true
 function staff:fixloop with storage staff:tempstorage Slots[-1]
